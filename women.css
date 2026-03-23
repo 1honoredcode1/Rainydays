@@ -1,0 +1,95 @@
+/* WOMEN PAGE */
+.page-women {
+  background: var(--light-gray);
+}
+
+.women-main {
+  background: var(--light-gray);
+}
+
+.women-page-title-wrap {
+  padding: 18px 14px 14px;
+  background: var(--light-gray);
+}
+
+.women-page-title {
+  display: inline-block;
+  font-size: clamp(2.2rem, 4vw, 3rem);
+  font-weight: 400;
+  line-height: 1;
+  color: var(--black);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 8px;
+}
+
+.women-coming-section {
+  background: var(--pink);
+  min-height: 585px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 130px 28px 100px;
+}
+
+.women-coming-text {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.women-coming-text h2 {
+  font-size: clamp(4.5rem, 11vw, 7.5rem);
+  line-height: 0.88;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #000000;
+}
+
+/* logo image inside nav */
+.nav-logo img {
+  height: 28px;
+  display: block;
+}
+
+/* tablet */
+@media (max-width: 950px) {
+  .women-coming-section {
+    min-height: 500px;
+    padding: 100px 24px 70px;
+  }
+
+  .women-coming-text {
+    gap: 18px;
+  }
+
+  .women-coming-text h2 {
+    font-size: clamp(4rem, 12vw, 6rem);
+  }
+}
+
+/* mobile */
+@media (max-width: 600px) {
+  .women-page-title-wrap {
+    padding: 16px 14px 12px;
+  }
+
+  .women-page-title {
+    font-size: 2rem;
+    text-underline-offset: 6px;
+  }
+
+  .women-coming-section {
+    min-height: 540px;
+    padding: 120px 30px 60px;
+  }
+
+  .women-coming-text {
+    gap: 18px;
+  }
+
+  .women-coming-text h2 {
+    font-size: clamp(4.2rem, 18vw, 6.6rem);
+    line-height: 0.9;
+  }
+}

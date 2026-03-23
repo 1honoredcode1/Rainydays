@@ -1,0 +1,135 @@
+.page-payment-complete {
+  background: var(--light-gray);
+}
+
+.payment-complete-main {
+  background: var(--light-gray);
+  min-height: 76vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px 30px;
+}
+
+.payment-complete-section {
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+}
+
+.payment-complete-icon {
+  width: 170px;
+  height: 170px;
+  border: 5px solid #1f78e5;
+  border-radius: 50%;
+  margin: 0 auto 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1f78e5;
+  font-size: 4.5rem;
+}
+
+.payment-complete-section h1 {
+  font-size: clamp(2.2rem, 4vw, 3.4rem);
+  font-weight: 600;
+  color: #111111;
+  margin-bottom: 20px;
+}
+
+.payment-complete-section p {
+  max-width: 470px;
+  margin: 0 auto 56px;
+  font-size: 1.05rem;
+  line-height: 1.25;
+  color: #111111;
+}
+
+.payment-complete-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+  flex-wrap: wrap;
+}
+
+.continue-shopping-btn,
+.home-page-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 150px;
+  padding: 8px 18px;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.continue-shopping-btn {
+  background: var(--pink);
+  color: #000000;
+}
+
+.home-page-btn {
+  background: var(--navy);
+  color: var(--white);
+}
+
+@media (max-width: 768px) {
+  .payment-complete-main {
+    min-height: 68vh;
+    padding: 30px 16px 20px;
+  }
+
+  .payment-complete-icon {
+    width: 145px;
+    height: 145px;
+    font-size: 3.8rem;
+    margin-bottom: 30px;
+  }
+
+  .payment-complete-section p {
+    margin-bottom: 40px;
+  }
+
+  .payment-complete-actions {
+    gap: 26px;
+  }
+}
+
+@media (max-width: 600px) {
+  .payment-complete-main {
+    min-height: 62vh;
+    padding: 24px 14px 16px;
+  }
+
+  .payment-complete-icon {
+    width: 118px;
+    height: 118px;
+    border-width: 4px;
+    font-size: 3rem;
+    margin-bottom: 24px;
+  }
+
+  .payment-complete-section h1 {
+    font-size: 2rem;
+    margin-bottom: 16px;
+  }
+
+  .payment-complete-section p {
+    max-width: 380px;
+    font-size: 0.95rem;
+    margin-bottom: 34px;
+  }
+
+  .payment-complete-actions {
+    gap: 18px;
+  }
+
+  .continue-shopping-btn,
+  .home-page-btn {
+    min-width: 138px;
+    font-size: 0.9rem;
+    padding: 8px 14px;
+  }
+}

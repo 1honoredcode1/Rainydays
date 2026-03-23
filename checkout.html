@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout | Rainy Days</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="checkout.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body class="page-checkout">
+    <div class="top-bar">
+      <p>Free shipping over 1000 NOK</p>
+      <div class="top-bar-right">
+        <a href="signin.html">Sign In</a>
+        <a href="#" class="language-switch">NO 🇳🇴</a>
+      </div>
+    </div>
+
+    <main class="checkout-main">
+      <h1 class="checkout-title">Check Out</h1>
+
+      <section class="checkout-panel">
+        <form action="../checkout.html" class="checkout-form">
+          <div class="checkout-section">
+            <h2>Personal Info</h2>
+
+            <div class="checkout-grid two-columns">
+              <div class="form-row">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" />
+              </div>
+
+              <div class="form-row">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" />
+              </div>
+
+              <div class="form-row">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" />
+              </div>
+
+              <div class="form-row">
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone" name="phone" />
+              </div>
+            </div>
+          </div>
+
+          <div class="checkout-section">
+            <h2>Shipping Address</h2>
+
+            <div class="checkout-grid two-columns">
+              <div class="form-row">
+                <label for="address">Adress:</label>
+                <input type="text" id="address" name="address" />
+              </div>
+
+              <div class="form-row">
+                <label for="zip">Zip:</label>
+                <input type="text" id="zip" name="zip" />
+              </div>
+
+              <div class="form-row">
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" />
+              </div>
+
+              <div class="form-row">
+                <label for="state">State:</label>
+                <input type="text" id="state" name="state" />
+              </div>
+            </div>
+          </div>
+
+          <div class="checkout-section">
+            <h2>Card Details</h2>
+
+            <div class="checkout-grid one-column">
+              <div class="form-row long-row">
+                <label for="cardHolder">Card Holder:</label>
+                <input type="text" id="cardHolder" name="cardHolder" />
+              </div>
+
+              <div class="form-row long-row">
+                <label for="cardNumber">Card Number:</label>
+                <input type="text" id="cardNumber" name="cardNumber" />
+              </div>
+
+              <div class="checkout-grid split-small">
+                <div class="form-row">
+                  <label for="expiryDate">Expiry Date:</label>
+                  <input type="text" id="expiryDate" name="expiryDate" />
+                </div>
+
+                <div class="form-row">
+                  <label for="cvv">CVV:</label>
+                  <input type="text" id="cvv" name="cvv" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="checkout-button-wrap">
+            <a href="payment-complete.html" class="checkout-btn">PAY NOW</a>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-column footer-brand">
+        <h3>RAINY DAYS</h3>
+        <p class="footer-tagline">Pushing the Comfort Zone</p>
+
+        <div class="footer-address">
+          <p>Address 123,</p>
+          <p>Post 12</p>
+        </div>
+
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-column footer-links">
+        <a href="index.html">Home</a>
+        <a href="men.html">Shop</a>
+        <a href="">Blog</a>
+      </div>
+
+      <div class="footer-column footer-newsletter">
+        <h4>Subscribe to Newsletter</h4>
+        <form class="newsletter-form" action="newsletter.html">
+          <input type="email" />
+          <button type="submit">Join</button>
+        </form>
+      </div>
+    </footer>
+
+    <div class="copyright">@ 2026 Klevis</div>
+  </body>
+</html>

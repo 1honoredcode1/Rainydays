@@ -1,0 +1,173 @@
+.page-checkout {
+  background: var(--light-gray);
+}
+
+.checkout-main {
+  background: var(--light-gray);
+}
+
+.checkout-title {
+  color: var(--navy-soft);
+  font-size: clamp(3rem, 7vw, 5rem);
+  font-weight: 700;
+  line-height: 1;
+  margin: 10px 0 8px 14px;
+}
+
+.checkout-panel {
+  background: var(--pink);
+  border-radius: 28px;
+  margin: 0 4px;
+  padding: 26px 28px 10px;
+}
+
+.checkout-form {
+  width: 100%;
+}
+
+.checkout-section {
+  margin-bottom: 42px;
+}
+
+.checkout-section h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 18px;
+}
+
+.checkout-grid {
+  display: grid;
+  gap: 24px 22px;
+}
+
+.two-columns {
+  grid-template-columns: 1fr 1fr;
+}
+
+.one-column {
+  grid-template-columns: 1fr;
+}
+
+.split-small {
+  display: grid;
+  grid-template-columns: 1fr 0.8fr;
+  gap: 16px;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.form-row label {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #000;
+  white-space: nowrap;
+}
+
+.form-row input {
+  width: 100%;
+  height: 22px;
+  border: none;
+  outline: none;
+  border-radius: 999px;
+  background: #f5f5f5;
+  padding: 0 12px;
+  font-size: 0.9rem;
+}
+
+.long-row input {
+  max-width: none;
+}
+
+.checkout-button-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+/* BUTTON */
+.checkout-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  background: var(--navy);
+  color: var(--white);
+
+  border-radius: 999px;
+  padding: 12px 40px;
+
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+
+  min-width: 200px;
+  text-align: center;
+
+  transition: 0.2s ease;
+}
+
+.checkout-btn:hover {
+  transform: translateY(-2px);
+  background: #05243a;
+}
+
+@media (max-width: 900px) {
+  .two-columns,
+  .split-small {
+    grid-template-columns: 1fr;
+  }
+
+  .checkout-panel {
+    padding: 22px 18px 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .checkout-title {
+    margin: 12px 0 10px 12px;
+    font-size: 3rem;
+  }
+
+  .checkout-panel {
+    border-radius: 22px;
+    padding: 20px 14px 8px;
+  }
+
+  .checkout-section {
+    margin-bottom: 34px;
+  }
+
+  .checkout-section h2 {
+    font-size: 1.25rem;
+    margin-bottom: 16px;
+  }
+
+  .checkout-grid {
+    gap: 18px;
+  }
+
+  .form-row {
+    gap: 2px;
+  }
+
+  .form-row label {
+    font-size: 0.85rem;
+  }
+
+  .form-row input {
+    height: 20px;
+    font-size: 0.85rem;
+    padding: 0 10px;
+  }
+
+  .checkout-btn {
+    min-width: 150px;
+    font-size: 0.9rem;
+    padding: 7px 28px;
+  }
+}

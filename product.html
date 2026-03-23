@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product | Rainy Days</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body class="page-product">
+    <div class="top-bar">
+      <p>Free shipping over 1000 NOK</p>
+      <div class="top-bar-right">
+        <a href="signin.html">Sign In</a>
+        <a href="#" class="language-switch">NO 🇳🇴</a>
+      </div>
+    </div>
+
+    <header class="page-header">
+      <nav class="main-nav">
+        <a href="index.html" class="nav-logo">RAINYDAYS</a>
+
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="men.html" class="active-link">Men</a>
+          <a href="women.html">Women</a>
+          <a href="">Blog</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="product-main">
+      <section class="product-panel">
+        <div class="product-top">
+          <div class="product-image-box">
+            <img id="productImage" src="" alt="" />
+          </div>
+
+          <div class="product-detail-text">
+            <h2 id="productCategory" class="product-category"></h2>
+            <h1 id="productName" class="product-name"></h1>
+            <p id="productPrice" class="product-price-large"></p>
+
+            <p id="productDescription" class="product-description"></p>
+          </div>
+        </div>
+
+        <div class="product-meta">
+          <div class="product-features">
+            <h3>Features</h3>
+            <ul id="productFeatures"></ul>
+          </div>
+
+          <div class="product-sizes">
+            <h3>Sizes</h3>
+            <div id="productSizes" class="size-options"></div>
+          </div>
+
+          <div class="product-pay">
+            <a
+              id="payNowBtn"
+              href="payment.html"
+              class="btn btn-dark product-pay-btn"
+            >
+              Pay Now
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-column footer-brand">
+        <h3>RAINY DAYS</h3>
+        <p class="footer-tagline">Pushing the Comfort Zone</p>
+
+        <div class="footer-address">
+          <p>Address 123,</p>
+          <p>Post 12</p>
+        </div>
+
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-column footer-links">
+        <a href="index.html">Home</a>
+        <a href="men.html">Shop</a>
+        <a href="">Blog</a>
+      </div>
+
+      <div class="footer-column footer-newsletter">
+        <h4>Subscribe to Newsletter</h4>
+        <form class="newsletter-form" action="newsletter.html">
+          <input type="email" />
+          <button type="submit">Join</button>
+        </form>
+      </div>
+    </footer>
+
+    <div class="copyright">@ 2026 Klevis</div>
+
+    <script src="product.js"></script>
+  </body>
+</html>
