@@ -1,4 +1,3 @@
-/* PRODUCT PAGE */
 .page-product {
   background: var(--light-gray);
 }
@@ -126,7 +125,6 @@
   padding: 10px 28px;
 }
 
-/* PAYMENT PAGE */
 .page-payment {
   background: var(--light-gray);
 }
@@ -190,7 +188,6 @@
   align-self: flex-start;
 }
 
-/* PAYMENT COMPLETE PAGE */
 .page-complete {
   background: var(--light-gray);
 }
@@ -241,7 +238,6 @@
   margin-top: 24px;
 }
 
-/* RESPONSIVE */
 @media (max-width: 768px) {
   .product-top {
     grid-template-columns: 1fr;

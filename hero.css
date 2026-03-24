@@ -4,7 +4,6 @@
   overflow: hidden;
 }
 
-/* THIS makes it behave like a background */
 .hero-bg {
   position: absolute;
   inset: 0;
@@ -12,11 +11,10 @@
   width: 100%;
   height: 100%;
 
-  object-fit: cover; /* very important */
+  object-fit: cover;
   z-index: 0;
 }
 
-/* overlay sits above image */
 .hero-overlay {
   position: absolute;
   inset: 0;
@@ -24,7 +22,6 @@
   z-index: 1;
 }
 
-/* content sits on top */
 .hero-content,
 .main-nav {
   position: relative;

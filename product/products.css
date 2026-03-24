@@ -36,7 +36,6 @@ input {
   font: inherit;
 }
 
-/* TOP BAR */
 .top-bar {
   background: var(--navy);
   color: var(--white);
@@ -62,7 +61,6 @@ input {
   padding-left: 12px;
 }
 
-/* HEADER / NAV */
 .page-header {
   padding: 10px 0 8px;
   background: var(--light-gray);
@@ -102,7 +100,6 @@ input {
   font-weight: 700;
 }
 
-/* BUTTON */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -122,7 +119,6 @@ input {
   color: var(--white);
 }
 
-/* PRODUCT PAGE */
 .page-product {
   background: var(--light-gray);
 }
@@ -265,7 +261,6 @@ input {
   padding: 10px 24px;
 }
 
-/* FOOTER */
 .footer {
   background: var(--navy);
   color: var(--white);
@@ -363,7 +358,6 @@ input {
   font-size: 0.8rem;
 }
 
-/* TABLET */
 @media (max-width: 950px) {
   .product-top {
     grid-template-columns: 1fr;
@@ -383,7 +377,6 @@ input {
   }
 }
 
-/* MOBILE */
 @media (max-width: 600px) {
   .top-bar {
     padding: 7px 12px;

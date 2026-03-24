@@ -36,7 +36,6 @@ input {
   font: inherit;
 }
 
-/* TOP BAR */
 .top-bar {
   background: var(--navy);
   color: var(--white);
@@ -62,7 +61,6 @@ input {
   padding-left: 12px;
 }
 
-/* NAV */
 .main-nav {
   width: min(700px, calc(100% - 32px));
   margin: 14px auto 0;
@@ -97,7 +95,6 @@ input {
   font-weight: 700;
 }
 
-/* PAGE */
 .page-men {
   background: var(--light-gray);
 }
@@ -111,7 +108,6 @@ input {
   min-height: 100vh;
 }
 
-/* TITLE */
 .page-title-wrap {
   padding: 18px 16px 10px;
 }
@@ -125,7 +121,6 @@ input {
   color: var(--black);
 }
 
-/* SECTIONS */
 .products-section {
   padding: 16px 16px 34px;
   background: var(--light-gray);
@@ -146,7 +141,6 @@ input {
   line-height: 1.05;
 }
 
-/* PRODUCT GRID */
 .product-grid {
   display: grid;
   gap: 22px;
@@ -163,7 +157,6 @@ input {
   padding-top: 6px;
 }
 
-/* PRODUCT CARD */
 .product-card {
   display: block;
   width: 100%;
@@ -221,7 +214,6 @@ input {
   opacity: 0.9;
 }
 
-/* FOOTER */
 .footer {
   background: var(--navy);
   color: var(--white);
@@ -319,7 +311,6 @@ input {
   font-size: 0.8rem;
 }
 
-/* TABLET */
 @media (max-width: 950px) {
   .four-columns {
     grid-template-columns: repeat(2, 1fr);
@@ -339,7 +330,6 @@ input {
   }
 }
 
-/* MOBILE */
 @media (max-width: 600px) {
   .top-bar {
     padding: 7px 12px;
